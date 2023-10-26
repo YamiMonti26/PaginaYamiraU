@@ -16,6 +16,10 @@ header {
     text-align: center;
 }
 
+header h1 {
+    color: black; /* Color del texto del encabezado en negro */
+}
+
 nav ul {
     list-style: none;
 }
@@ -26,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: black; /* Color del texto del enlace en negro */
     text-decoration: none;
 }
 
@@ -64,20 +68,20 @@ footer {
     padding: 50px;
     text-align: left;
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
 }
 
-.contenido img {
-    max-width: 50%; 
-.imagening {
-    float: right; 
-    margin-left: 20px; 
-}
-    .imagenU {
-    float: left; 
-    margin-right: 50px; 
+.contenido .imagenU {
+    float: left;
+    margin-right: 20px; /* Ajusta el margen según tus necesidades */
 }
 
+.contenido .imagening {
+    float: right;
+    margin-left: 20px; /* Ajusta el margen según tus necesidades */
+}
+
+.contenido img {
+    max-width: 50%;
 }
