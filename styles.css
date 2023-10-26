@@ -62,7 +62,7 @@ footer {
 
 .contenido {
     padding: 50px;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
