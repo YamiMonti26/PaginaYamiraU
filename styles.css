@@ -1,47 +1,74 @@
+/* Resetear estilos por defecto del navegador */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: orange; /* Fondo naranja */
-    color: white; /* Letras blancas */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-.header {
-    margin-right: 20px; /* Margen derecho para la imagen */
+header {
+    background: #FF5E33;
+    color: white;
+    padding: 1rem;
+    text-align: center;
 }
 
-/* Estilo para la imagen en el margen derecho */
-.imagening {
-    float: right;
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
     margin-right: 20px;
 }
 
-/* Estilo para el botón de llamada a la acción */
-.cta-button {
-    background-color: white;
-    color: orange;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    display: inline-block;
-}
-
-/* Estilos para los encabezados */
-h1, h2 {
-    color: white; /* Letras blancas */
-}
-
-/* Estilos para los enlaces de navegación */
 nav ul li a {
-    color: white; /* Letras blancas */
+    color: #fff;
     text-decoration: none;
 }
 
-/* Estilos para el pie de página */
-footer {
-    background-color: orange; /* Fondo naranja */
-    color: white; /* Letras blancas */
+.hero {
+    background: #f4f4f4;
     text-align: center;
-    padding: 10px;
+    padding: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #FF5E33;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.about {
+    padding: 2rem;
+    background: #e0e0e0;
+}
+
+footer {
+    background-color: #FF5E33;
+    color: white;
+    text-align: center;
+    padding: 1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.contenido {
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido img {
+    max-width: 50%; 
 }
