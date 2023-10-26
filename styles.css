@@ -71,4 +71,9 @@ footer {
 
 .contenido img {
     max-width: 50%; 
+.imagening {
+    float: right; /* Coloca la imagen a la derecha */
+    margin-left: 20px; /* Establece un margen izquierdo para separar la imagen del contenido */
+}
+
 }
