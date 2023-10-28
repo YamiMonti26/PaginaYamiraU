@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-    color: black; /* Color del texto del encabezado en negro */
+    color: black; 
     
 }
 header h2 {
@@ -36,7 +36,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black; /* Color del texto del enlace en negro */
+    color: black; 
     text-decoration: none;
 }
 
@@ -81,12 +81,12 @@ footer {
 
 .contenido .imagenU {
     float: left;
-    margin-right: 20px; /* Ajusta el margen según tus necesidades */
+    margin-right: 20px; 
 }
 
 .contenido .imagening {
     float: right;
-    margin-left: 20px; /* Ajusta el margen según tus necesidades */
+    margin-left: 20px; 
 }
 
 .contenido img {
