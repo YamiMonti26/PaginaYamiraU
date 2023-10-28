@@ -19,7 +19,9 @@ header {
 header h1 {
     color: black; /* Color del texto del encabezado en negro */
 }
-
+header h3 {
+    text-align: left;
+}
 nav ul {
     list-style: none;
 }
